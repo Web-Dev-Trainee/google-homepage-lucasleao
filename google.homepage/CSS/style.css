@@ -2,6 +2,32 @@ h1{
     font-size: 110px;
     color:brown
 }
-.Busca-texto{
-    width: 350px;
+.content__search{
+    width: 482px;
+    height: 44px;
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    z-index: 3;
+    margin: 0 auto;
+    box-shadow: none;
+    outline: 0;
+    font-size: 18px;
+    padding: 7px 10px 6px 20px;
+}
+.content__button{
+    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
